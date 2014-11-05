@@ -1,0 +1,22 @@
+﻿<article class="container">
+    <header ng-bind="home.expertise.header"></header>
+    <p ng-bind="home.expertise.title"></p>
+    <div class="row home-expertises">        
+        <div class="col-xs-12 col-sm-4 home-expertise" ng-repeat="expertise in home.expertise.data_line1">
+            <a href="#{{expertise.url}}">
+                <img ng-src="{{expertise.image}}"/>
+            </a>
+            <h1 ng-bind="expertise.title"></h1>
+            <p ng-bind="expertise.caption"></p>
+         </div>           
+    </div>
+    <div class="row home-expertises">
+        <div class="col-xs-12 col-sm-6 home-expertise center-block" ng-repeat="expertise in home.expertise.data_line2">
+            <a href="#{{expertise.url}}">
+                 <img ng-src="{{expertise.image}}"/>
+            </a>
+            <h1 ng-bind="expertise.title"></h1>
+            <p ng-bind="expertise.caption"></p>
+        </div>
+    </div>
+</article>

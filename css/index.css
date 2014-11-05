@@ -1,0 +1,276 @@
+﻿body {
+    font-family: 'Jura', sans-serif;
+}
+
+header.home {
+    border-top: 3px solid #73cdff;
+    box-shadow: 0 4px 5px -2px #ddd;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 970px
+}
+
+.navbar {
+    margin-bottom:0;
+}
+.home .navbar .container-fluid, .home .navbar .navbar-right {
+    padding-left:0;
+    padding-right:0;
+}
+.navbar-default{
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-right.navbar-nav > li > a{
+    line-height: 10px;
+}
+.navbar-brand {
+    height: 100px
+}
+
+.navbar-brand img{
+    height: 100%
+}
+
+.navbar-nav > li > a {
+    line-height: 70px;
+}
+
+@media screen and ( max-width: 1000px) { 
+  .navbar-nav > li > a {        
+        font-size: 12px;
+  }
+  .carousel-caption {
+    font-size: 4em;
+}
+}
+@media screen and ( max-width: 768px) { 
+  .navbar-nav > li > a {      
+       line-height: 20px;  
+        font-size: 20px;
+
+  }
+  .carousel-caption {
+        font-size: 2em;
+    }
+}
+@media screen and ( max-width: 500px) {
+    .carousel-caption {
+        font-size: 1em;
+    }
+}
+
+.carousel-caption {
+        font-size: 4em;
+    }
+.lang-panel {
+    position:absolute;
+    top:0;
+    right:15px;
+    font-size: 12px;
+    background: #eee;
+}
+.lang-panel button {
+    background: #eee;
+    border: none;
+}
+.lang-panel button:hover {
+    background: #ddd;
+    border: none;
+}
+.lang-panel button:active {
+    background: #73cdff;
+    border: none;
+     outline: none;
+}
+.lang-panel button.active {
+    background: #73cdff;
+}
+.lang-panel button:focus {
+    outline: none;
+}
+
+
+article header {
+    margin-top: 35px;
+    font-size: 3em;
+    text-align: center;
+    border-left: 1px solid #73cdff;
+    border-right: 1px solid #73cdff;
+}
+
+article p {
+    text-align: center;
+    font-size: 1.5em;
+}
+.home-projects {
+    margin: 0 0 70px 0;
+
+}
+.home-projects img {
+    width: 100%;
+}
+.home-projects .col-xs-6 {
+    padding:0;
+}
+
+@media screen and ( min-width: 768px) {
+    .home-projects .home-project:nth-child(even) {
+        top: 50px;
+    }
+}
+@media screen and ( max-width: 768px) {
+    .home-project {
+        height: 300px;
+        overflow:hidden;
+    }
+}
+
+.home-projects > .home-project {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.home-projects:hover > .home-project {
+    opacity: .5;
+    
+}
+
+.home-project:hover {
+    opacity: 1!important;
+}
+.home-project-caption {
+    background-color: rgba(115,205,255,.9);
+    color: white;
+    position:absolute;
+    bottom:0;
+    min-height:50px;
+    width:100%;
+    padding:10px;
+    opacity:0;
+    transition: opacity .5s;
+}
+.home-project:hover .home-project-caption {
+    opacity:1;
+}
+
+.home-expertise-wrapper {
+    background-color: #f7f7f7;
+}
+.home-expertises img {
+    width: 100%;
+    max-width: 300px;
+}
+.home-expertise {
+    
+    text-align: center;
+}
+
+.home-expertise p {
+    line-height: 16px;
+    font-size:16px;
+}
+.home-expertise h1 {
+    font-weight: 800;
+    line-height: 16px;
+    font-size: 20px;
+}
+.home-insights {
+    margin-bottom: 50px;
+}
+.home-insight {
+    background-color: #ddd;
+    text-align: center;    
+}
+.home-insight img {
+    width: 100%;
+}
+.home-insight .insight-title {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 5px;
+    min-height:100px;
+    
+}
+
+.home-insight .insight-photo {
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+    position: absolute;
+    bottom: -25px;
+    border: 1px solid white;
+    left: 40%;
+}
+
+.home-insight .insight-date {
+    background-color: #ccc;
+}
+
+.home-featured-wrapper {
+    background-color:#73cdff;
+    color: white;
+    min-height:300px;
+}
+
+footer .contacts {
+    background-color: #1e1e1e;
+    color: white;
+}
+footer .contacts .title{
+    font-size:30px;
+}
+footer .copyrights {
+    background-color: #353230;
+    color: white;
+    border-top: 1px solid #315A71;
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer .contacts a{
+    text-decoration: none;
+    color: white;
+}
+footer .contacts .social {
+    padding: 0 10px;
+}
+footer .contacts .social li{
+    display: inline;  
+    background-color: gray;
+    padding: 8px;
+    margin-right: 5px;
+   
+}
+footer .contacts .social li:hover {
+     background-color: white;
+     cursor: pointer;
+}
+footer .contacts .social li i {
+    color: #1e1e1e !important;
+    vertical-align: text-top;
+}
+
+
+
+.project-name {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.project-name img {
+    width: 100%;
+}
+
+.project-page .project-photo {
+     width: 100%;
+}

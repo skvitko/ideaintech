@@ -1,0 +1,33 @@
+﻿<section class="project-page">      
+    <div class="project-name">
+        <article class="container">
+            <header ng-bind="project.header"></header>
+            <p ng-bind="project.title"></p>
+        </article>
+    </div>
+    <img ng-src="{{project.image}}" />       
+    <div class="container">     
+        <div style="height: 700px">
+            <carousel interval="5000">
+                <slide ng-repeat="slide in project.slides" active="slide.active">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">                    
+                </slide>
+            </carousel>
+        </div>   
+        <div class="row">
+            <div class="col-md-4"><img class="project-photo" ng-src="{{project.row1.image}}" alt="image project {{project.title}}"/></div>
+            <div class="col-md-8">
+                <h3 ng-bind="project.row1.header"></h3>
+                <p  ng-bind="project.row1.description"></p>
+            </div>
+        </div> <br/><br/>
+        <div class="row">
+             <div class="col-md-8">
+                <h3 ng-bind="project.row2.header"></h3>
+                <p  ng-bind="project.row2.description"></p>
+            </div>
+            <div class="col-md-4"><img class="project-photo" ng-src="{{project.row2.image}}" alt="image project {{project.title}}"/></div>
+        </div> <br/><br/>
+    </div>
+</section>
+

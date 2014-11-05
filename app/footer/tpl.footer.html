@@ -1,0 +1,32 @@
+﻿<footer>
+    <div class="contacts">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <p class="title" ng-bind="footer.line1"></p>
+                  <p><a href="tel:{{footer.line2.number}}" ng-bind="footer.line2.title"></a></p>
+                  <p><a href="mailto:{{footer.line3.mail}}" ng-bind="footer.line3.title"></a></p>
+              </div>
+              <div class="col-md-6">
+                  <p class="title" ng-bind="footer.line4"></p>
+                  <ul class="social">
+                      <li><i class="icon-facebook"></i></li>
+                      <li><i class="icon-twitter"></i></li>
+                      <li><i class="icon-googleplus"></i></li>
+                      <li><a href="https://www.linkedin.com/company/421229?trk=prof-exp-company-name"><i class="icon-linkedin"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>© 2008 - <span ng-bind="year"></span> <span ng-bind="footer.line5"></span></p>
+                </div>
+           </div>
+        </div>
+    </div>
+</footer>

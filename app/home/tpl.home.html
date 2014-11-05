@@ -1,0 +1,21 @@
+﻿<section>
+   <div ng-controller="CarouselDemoCtrl">  
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slider" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">          
+              <p>{{slides[$index].text}}</p>
+            </div>
+          </slide>
+        </carousel> 
+    </div>
+    <div ng-include="'app/home/tpl.projects.html'"></div>
+    <div ng-include="'app/home/tpl.presentation.html'"></div>
+    <div class="container-fluid home-expertise-wrapper">
+        <div ng-include="'app/home/tpl.expertise.html'"></div>
+    </div>    
+    <div ng-include="'app/home/tpl.insights.html'"></div>
+    <div class="container-fluid home-featured-wrapper">
+        <div ng-include="'app/home/tpl.featured.html'"></div>
+    </div>
+</section>

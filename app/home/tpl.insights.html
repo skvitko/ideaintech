@@ -1,0 +1,20 @@
+﻿<article class="container home-insights">
+    <header ng-bind="home.insights.header"></header>
+    <p ng-bind="home.insights.title"></p>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" ng-repeat="insight in home.insights.data">
+            <div class="home-insight">
+                <img ng-src="{{insight.image}}"/>
+                <div class="row">
+                    <div class="col-xs-7">
+                        <p class="insight-title" ng-bind="insight.title"></p>
+                    </div>
+                    <div class="col-xs-5">
+                        <p class="insight-date" ng-bind="insight.date"></p>
+                    </div>                                      
+                </div>
+                 <img class="insight-photo" ng-src="{{insight.photo}}"/> 
+            </div>
+        </div>
+    </div>
+</article>

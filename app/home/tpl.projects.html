@@ -1,0 +1,17 @@
+﻿<article class="container">
+    <header ng-bind="home.projects.header"></header>
+    <p ng-bind="home.projects.title"></p>
+    <div class="row home-projects">
+        <div class="col-sm-2 col-xs-6 home-project" ng-repeat="project in home.projects.data">
+            <div>
+                <div class="home-project-caption" ng-bind="project.title"></div>
+                      <a href="#{{project.url}}">
+                         <img ng-src="{{project.image}}" alt="picture {{project.title}}"/>
+                      </a>
+                </div>
+        </div>
+    </div>
+</article>
+
+
+     

@@ -1,0 +1,276 @@
+﻿{
+	"menu": [{
+		"title": "Our Project",
+		"url": "/projects"
+	},{
+		"title": "Insights",
+		"url": "/insights"
+	},{
+		"title": "Expertise",
+		"url": "/expertise"
+	},{
+		"title": "Our Products",
+		"url": "/product"
+	},{
+		"title": "Careers",
+		"url": "/careers"
+	},{
+		"title": "About",
+		"url": "/about"
+	},{
+		"title": "Contact",
+		"url": "/contact"
+	}],
+	
+	"slides": [{		
+		"text": "New TECHNOLOGY"
+	},{		
+		"text": "Fast & Strong"
+	},{		
+		"text": "Mobile platforms supported"
+	},{		
+		"text": "Cross browsers VERSIONS"
+	},{		
+		"text": "iOS, Android, Windows etc..."
+	}],
+
+	"home":{
+		"projects":{
+			"header": "OUR Projects",
+			"title": "Here are our last products. Completed last year.",
+				"data": [{  "image": "images/projects1.png",
+								"title": "British St.Food app",
+								"url": "/project/0"	
+					},{  "image": "images/projects2.png",
+							   "title": "Alta-Profil app",
+							   "url": "/project/1"	
+					},{  "image": "images/projects3.png",
+							   "title": "FineArtFarm",
+							   "url": "/project/2"	
+					},{  "image": "images/projects4.png",
+							   "title": "Lawtons Drugs app",
+							   "url": "/project/3"		
+					},{  "image": "images/projects5.png",
+							   "title": "EM Suite app",
+							   "url": "/project/4"		
+					},{  "image": "images/projects6.png",
+							   "title": "Fireproof Worms",
+							   "url": "/project/5"		
+					}]
+		},
+
+
+		"presentation":{
+			"header": "Presentation",
+				"title": "About us"
+		},
+		
+
+
+		"expertise":{
+			"header": "OUR Expertice",
+			"title": "Test. Debug. Compile. More & more ...We believe in quality, innovation and productivity.",
+			"data_line1": [{
+					"image": "images/expertice1.png",
+					"title": "Expertice title1",
+					"caption": "Expertice caption expertice",
+					"url": "/expertise/post1"
+				},{
+					"image": "images/expertice2.png",
+					"title": "Expertice title2",
+					"caption": "Caption expertice caption expertice caption",
+					"url": "/expertise/post2"
+				},{
+					"image": "images/expertice3.png",
+					"title": "Expertice title3",
+					"caption": "Tion expertice captiocaption expertice caption",
+					"url": "/expertise/post3"
+				}],
+			"data_line2":[
+				{
+					"image": "images/expertice4.png",
+					"title": "Expertice title4",
+					"caption": "Expertice caption expertice caption expertice caption expertice caption",
+					"url": "/expertise/post4"
+				},{
+					"image": "images/expertice5.png",
+					"title": "Expertice title5",
+					"caption": "Expertice captpertice caption expertice caption",
+					"url": "/expertise/post5"
+				}
+			]
+		},
+		"insights":{
+			"header": "Insights",
+			"title": "What is that??? I don't know",
+			"data": [{
+				"image": "images/blog1.png",
+				"title": "System entirprise 2014",
+				"date": "15th sep",
+				"photo": "images/person1.jpg"
+			},{
+				"image": "images/blog2.png",
+				"title": "New service provider",
+				"date": "2nd Oct",
+				"photo": "images/person2.jpg"
+			},{
+				"image": "images/blog3.png",
+				"title": "Company most famouse",
+				"date": "7nd Oct",
+				"photo": "images/person3.jpg"
+			},{
+				"image": "images/blog4.png",
+				"title": "System entirprise 2014",
+				"date": "5th Mar",
+				"photo": "images/person1.jpg"
+			}]
+		},
+		"featured":{
+			"header":"Featured Clients",
+			"title": "We work hard to build solid and long-lasting relationships with our clients. Here are some of the amazing companies we are lucky to work with."
+		}
+	},
+	
+	"projects": 
+		[{
+			"header": "Project1 Name",
+			"title": "Project1 Title",
+			"image": "images/slide0.png",
+			"slides":[{
+				"image": "images/project1_1.png"
+			},{
+				"image": "images/project1_2.png"
+			},{
+				"image": "images/project1_3.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		},{
+			"header": "Project2 Name",
+			"title": "Project2 Title",
+			"image": "images/slide1.png",
+			"slides":[{
+				"image": "images/project2_1.png"
+			},{
+				"image": "images/project2_2.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		},{
+			"header": "Project3 Name",
+			"title": "Project3 Title",
+			"image": "images/slide2.png",
+			"slides":[{
+				"image": "images/project3_1.png"
+			},{
+				"image": "images/project3_2.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		},{
+			"header": "Project4 Name",
+			"title": "Project4 Title",
+			"image": "images/slide3.png",
+			"slides":[{
+				"image": "images/project1_1.png"
+			},{
+				"image": "images/project1_2.png"
+			},{
+				"image": "images/project1_3.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		},{
+			"header": "Project5 Name",
+			"title": "Project5 Title",
+			"image": "images/slide4.png",
+			"slides":[{
+				"image": "images/project2_1.png"
+			},{
+				"image": "images/project2_2.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		},{
+			"header": "Project6 Name",
+			"title": "Project6 Title",
+			"image": "images/slide1.png",
+			"slides":[{
+				"image": "images/project3_1.png"
+			},{
+				"image": "images/project3_2.png"
+			}],
+			"row1": {
+				"image": "images/project1_row1.png",
+				"header": "Header",
+				"description": "Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen!"
+			},
+			"row2": {
+				"image": "images/project1_row2.png",
+				"header": "Header 2",
+				"description": "Descroption2  Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and share the results. So we got down to work to make his ideas happen! Team had a wonderful experience of collaborating with a singer, music producer and a music band member Sean Patwell. He has always dreamt of having something reminiscent of a portable vocal recording studio. Sean came up with an idea to create an iPhone app that will record your voice over music and sharhappen!"
+			}
+			
+		}]
+	,
+
+	"footer":{
+		"line1": "Contact us",
+		"line2": {
+			"title": "Tel: +38 068 953 70 58",
+			"number": "+38 068 953 70 58"
+		},
+		"line3": {
+			"title": "Email: mail@ideainteach.com",
+			"mail": "mail@ideainteach.com"
+		},
+		"line4": "See you at our portals",
+		"line5": "ideainTech. All Rights Reserved."
+	}		
+	
+}
